@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    /* background-image: url(background.jpg); */
+    background-color: rgb(195, 229, 240);
+    background-size: cover;
+    background-position: center;
+}
+
+section nav{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(26, 26, 114);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    margin: auto;
+    
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+section nav ul{
+    list-style: none;
+    align-items: right;
+}
+
+section nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+section nav li a:hover{
+    color: rgb(91, 211, 219);
+}
+
+section nav .btnLogin-popup{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 50;
+    margin-left: 10px;
+    text-wrap: balance;
+    border-radius: 5px;
+}
+
+section nav .btnLogin-popup a{
+    text-decoration: none;
+    color: white;
+}
+
+section nav .btnLogin-popup:hover{
+    cursor: pointer;
+}
+
+section nav .social_icon i{
+    margin: 0 5px;
+    margin-left: -40px;
+    font-size: 18px;
+    color: white;
+}
+
+section nav .social_icon i:hover{
+    color: rgb(36, 193, 214);
+    cursor: pointer;
+}
+
+/*main*/
+
+section .main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 23%;
+    bottom: 40%;
+    margin-top: 10px;
+}
+
+section .main h1{
+    position: relative;
+    font-size: 45px;
+    font-style: italic;
+    top: -40px;
+    left: 25px;
+}
+
+section .main h1 span{
+    color: rgb(12, 43, 100);
+}
+
+section .main p{
+    width: 625px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+    position: relative;
+    top: 25px;
+    bottom: 60px;
+    left: 25px;
+}
+
+section .main .main_image img{
+    width: 450px;
+    height: 237px;
+    position: relative;
+    top: 12px;
+    left: 200px;
+    border: 5px solid rgb(6, 15, 88);
+}
+#temp{
+    margin-bottom: 100px;
+}
+
+/*About us*/
+
+.about{
+    width: 100%;
+    height: 585px;
+    padding: 30px;
+    top: 60px;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about_image img{
+    width: 600px;
+    top: 100px;
+    border: 5px solid rgb(6, 15, 88);
+}
+
+.about .about_tag h1{
+    font-size: 45px;
+    color: rgb(6, 15, 88);
+    top: -50px;
+    text-decoration: underline 4px;
+    position: relative;
+    bottom: 25px;
+}
+
+.about .about_tag p{
+    line-height: 28px;
+    width: 625px;
+    height: 40px;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.about .about_tag .about_btn{
+    padding: 10px 20px;
+    background: rgb(4, 3, 66);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: rgb(76, 132, 206);
+    position: relative;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 20px 20px 30px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 1%;
+    background-color: rgb(135, 190, 228);
+    color: blue;
+    margin: 1%;
+    border-radius: 50%;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.footerbottom{
+    background-color: rgb(10, 45, 92);
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p{
+    color: white;
+}
